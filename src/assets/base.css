@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Jockey+One&family=Michroma&display=swap');
+
+:root {
+  --brown: #593E32;
+  --light-brown: #BB7A4C;
+  --white: #F4F4F4;
+
+  --buff: #CE976Cff;
+--coffee: #704F35ff;
+--smoky-black: #0B0906ff;
+--coffee-2: #664732ff;
+--pale-dogwood: #EBC8BAff;
+
+  --section-gap: 160px;
+}
+
+body{
+  margin:0;
+}
