@@ -18,7 +18,7 @@ const props = defineProps({
     flat
     @click="router.push({ name: 'oferta', params: { id: 'sadds' } })"
   >
-    <q-img class="q-pa-xs" :src="props.img" ratio="1"> </q-img>
+    <q-img class="q-pa-xs" :src="props.img" :ratio="9/16"> </q-img>
     <q-card-section>
       <div>
         <div>
