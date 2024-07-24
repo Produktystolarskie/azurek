@@ -2,28 +2,36 @@
 
 .q-parallax{
   img{
-    filter:brightness(0.6)
+    filter:contrast(0.6) brightness(0.7);
   } 
 }
 
 body{
-  background-color: var(--buff);
+  background-color: var(--primary);
   user-select: none;
 }
 
-h2, h3, h5, h6 {
-    font-family:'Michroma';
+h2, h3, h4, h5, h6 {
+    font-family:'Bebas Neue';
+}
+
+h3{
+  font-family: 'Bebas Neue';
+  height:3.75rem;
+
+  a{
+    
+    img{
+      max-height: 90%;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
 }
 
 a{
   text-decoration: none;
 }
-
-header *{
-  font-family: 'Anybody';
-  transition:250ms;
-}
-
 
 @media (min-width: 1024px) {
   header{

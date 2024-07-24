@@ -1,29 +1,30 @@
 <script setup lang="ts"></script>
 
-<template> 
-    <header>
-      <h3>Stolarstwo</h3>
+<template>
+  <header>
+    <h3>
+      Produkty stolarskie
       <h5>Artur Żurek</h5>
-    </header> 
+    </h3>
+    
+  </header>
 </template>
 
-<style scoped>
+<style>
 header {
   width: 100%;
-  font-family: "Anybody";
-  background-color: var(--brown);
-  color: var(--white);
-  padding: 30px;
+  background-color: var(--secondary);
+  color: var(--white); 
+padding: 30px 10px 50px;
+
+
+  * {
+    font-family: "Bebas Neue";
+  }
 }
 
-h3 {
+h5, h3 {
   margin: 0;
   padding: 0;
-  line-height: 1;
-}
-h5 {
-  margin: 0;
-  padding: 0;
-  line-height: 0.5;
 }
 </style>

@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Jockey+One&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Michroma&family=Bebas+Neue');
 
 :root {
+  --primary: #efefd0;
+  --secondary: #004e89;
+  --accent: #1a659e;
+
   --brown: #593E32;
   --light-brown: #BB7A4C;
   --white: #F4F4F4;

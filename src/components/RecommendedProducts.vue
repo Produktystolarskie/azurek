@@ -6,7 +6,7 @@ const slide = ref("style");
 </script>
 
 <template>
-  <div class="q-pa-xl text-white bg-secondary">
+  <div class="q-pa-sm recommended">
     <h2>Najnowsze</h2>
     <div class="row max-width">
       <item
@@ -15,37 +15,45 @@ const slide = ref("style");
         price="80 zł"
         olxURL="https://www.olx.pl/d/oferta/karmnik-i-stolik-ozdobny-CID628-ID1107wp.html?reason=seller_profile"
         allegroURL="https://allegro.pl/"
-        class="col-10 col-sm"
-        
+        class="col-12 col-md"
       />
       <item
-        img="https://cdn.quasar.dev/img/parallax2.jpg"
+        img="https://ireland.apollo.olxcdn.com/v1/files/7svzscfu3tjn3-PL/image;s=1000x700"
         name="Stolik"
         price="50 zł"
-        class="col-10 col-sm"
+        class="col-12 col-md"
         olxURL="link do olx"
         allegroURL="link do allegro"
       />
       <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/4q6185kt70xp3-PL/image"
-        name="Karmnik i stolik ozdobny"
+        img="https://ireland.apollo.olxcdn.com/v1/files/8n75uq0qxl6g1-PL/image;s=1000x700"
+        name="Miniaturowy stolik piknikowy, ozdoba do domu"
         price="100 zł"
-        class="col-10 col-sm"
+        class="col-12 col-md"
         olxURL="https://www.olx.pl/d/oferta/karmnik-i-stolik-ozdobny-CID628-ID1107wp.html?reason=seller_profile"
         allegroURL="https://allegro.pl/"
       />
     </div>
   </div>
 </template>
-<style scoped>
-h2 {
-  font-family: "Michroma";
-  font-size: 2rem;
+<style >
+.recommended {
+  max-width: 400px;
+  margin: 0 auto;
+  
+  h2 { 
+    font-size: 2rem;
+    color: var(--secondary)
+  }
 }
 
-@media screen and (min-width: 624px) {
-  h2 {
-    font-size: 3.75rem;
+@media screen and (min-width: 1025px) {
+  .recommended{
+    max-width:1024px;
+
+    h2 { 
+      font-size:3.75rem
+    }
   }
 }
 </style>

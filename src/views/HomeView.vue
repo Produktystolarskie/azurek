@@ -13,7 +13,7 @@ const windowHeight = ref(window.innerHeight);
   <q-layout>
     <q-page-container
       ><q-page>
-        <main-section :section-height="windowHeight - 300" />
+        <main-section :sectionHeight="150"/>
         <recommended-products />
         <about-section />
       </q-page>
@@ -25,12 +25,5 @@ const windowHeight = ref(window.innerHeight);
 a {
   text-decoration: none;
   transition: 250ms;
-}
-h3 {
-  transition: 250ms;
-}
-
-h3:hover {
-  transform: translateX(30px);
 }
 </style>

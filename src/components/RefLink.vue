@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="col absolute-top-right">
+  <div class="row">
     <a :href="props.olxURL">
       <div class="circle olx">
         <img src="@/assets/olx.png" />
@@ -22,15 +22,16 @@ const props = defineProps({
   </div>
 </template>
 
-<style scoped>
+<style> 
 .circle {
   display: flex;
   justify-content: center;
-  background-color: #1af8f0;
+  background-color: var(--secondary);
   align-items: center;
   padding: 8px;
-  width: 50px;
-  height: 50px;
+  margin:2px;
+  width: 3rem;
+  height: 3rem;
   overflow: hidden;
   cursor: pointer;
 
@@ -40,14 +41,11 @@ const props = defineProps({
   }
 }
 
-.olx {
-  background-color: #24e6db;
-  border-radius: 100% 20% 100% 100%;
+.olx { 
+  border-radius: 80% 0% 0% 80%;
 }
 
-.allegro {
-  background-color: #ff5a00;
-  border-radius: 100% 20% 100% 100%;
-  margin-top: 10px;
+.allegro { 
+  border-radius: 0% 80% 80% 0%;
 }
 </style>

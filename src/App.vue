@@ -4,8 +4,7 @@ import HeaderSection from '@/components/HeaderSection.vue'
 
 </script>
 
-<template>
-  <main>
+<template> 
     <header-section />
     <router-view v-slot="{ Component, route }">
       <Transition name="slide" mode="out-in">
@@ -13,8 +12,7 @@ import HeaderSection from '@/components/HeaderSection.vue'
           <component :is="Component"></component>
         </div>
       </Transition>
-    </router-view>
-  </main>
+    </router-view> 
 </template>
 
 <style>
