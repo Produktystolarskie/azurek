@@ -4,7 +4,7 @@
   <header>
     <h3>
       Produkty stolarskie
-      <h5>Artur Żurek</h5>
+      <h5>Artur Jurek</h5>
     </h3>
     
   </header>

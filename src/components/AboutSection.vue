@@ -3,8 +3,13 @@
     <div class="links">
       <h4>O mnie</h4>
       <h6>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
-        deserunt eligendi enim minima explicabo
+        Wszystkie produkty sa wykoonywane przez 15-latka
+        Nie sa to produkty ktore wychodza z fabryki, tylko sa wlasnorecznie robione narzedziami recznymi w garazu, przez co moga miec niedoskonalosci.
+        Wszystkie zdjecia przedstawiaja produkt wysylany. 
+        Przesylka kurierska wchodzi w gre, w celu zakupienia poza olx allegro nalezy sie kontaktowac na:
+        Nr telefonu 787 607 511
+        Gmail Arturjurek12@gmail.com
+      
       </h6>
     </div>
   </div>

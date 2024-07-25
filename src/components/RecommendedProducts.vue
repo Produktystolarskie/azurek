@@ -10,10 +10,10 @@ const slide = ref("style");
     <h2>Najnowsze</h2>
     <div class="row max-width">
       <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/4q6185kt70xp3-PL/image"
-        name="Karmnik mały"
-        price="80 zł"
-        olxURL="https://www.olx.pl/d/oferta/karmnik-i-stolik-ozdobny-CID628-ID1107wp.html?reason=seller_profile"
+        img="https://ireland.apollo.olxcdn.com/v1/files/rw3llkmthvne-PL/image;s=1000x700"
+        name="Karmnik "
+        price="60 zł"
+        olxURL="https://www.olx.pl/d/oferta/karmnik-dla-ptakow-CID103-ID11aNN6.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=0"
         allegroURL="https://allegro.pl/"
         class="col-12 col-md"
       />
@@ -22,15 +22,15 @@ const slide = ref("style");
         name="Stolik"
         price="50 zł"
         class="col-12 col-md"
-        olxURL="link do olx"
+        olxURL="https://www.olx.pl/d/oferta/miniaturowy-stolik-piknikowy-ozdoba-do-domu-CID628-ID119wzw.html?bs=olx_pro_listing"
         allegroURL="link do allegro"
       />
       <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/8n75uq0qxl6g1-PL/image;s=1000x700"
-        name="Miniaturowy stolik piknikowy, ozdoba do domu"
+        img="https://ireland.apollo.olxcdn.com/v1/files/lumryc4b08gr3-PL/image;s=1000x700"
+        name="Doniczka typu pociag"
         price="100 zł"
         class="col-12 col-md"
-        olxURL="https://www.olx.pl/d/oferta/karmnik-i-stolik-ozdobny-CID628-ID1107wp.html?reason=seller_profile"
+        olxURL="https://www.olx.pl/d/oferta/doniczka-pociag-obduowa-dla-kwiatkow-CID628-ID11aFnO.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=1"
         allegroURL="https://allegro.pl/"
       />
     </div>
