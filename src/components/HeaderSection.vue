@@ -1,27 +1,21 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header>
-    <q-parallax
-      class="col"
-      src="https://d2yvmenv39glx3.cloudfront.net/images/f-105323-co-robi-stolarz-wszystko-o-uslugach-stolarskich.jpg"
-      width="100%" 
-      height="200"
-    >
+  <header> 
+    <div>
       <h1 class="text-h3">
         Produkty stolarskie
         <h2 class="text-h4">Artur Jurek</h2>
-      </h1>
-      
-    </q-parallax>
-    <div class="q-pa-sm links" reveal elevated>
+      </h1> 
+      </div>
+    <!-- <div class="q-pa-sm links" reveal elevated>
       <h3>
         <router-link class="text-white" to="/oferty">
           Pełna oferta <q-icon name="arrow_right" />
         </router-link>
       </h3>
       
-    </div>
+    </div> -->
   </header>
 </template>
 
