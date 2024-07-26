@@ -28,7 +28,7 @@ const slide = ref("style");
       <item
         img="https://ireland.apollo.olxcdn.com/v1/files/lumryc4b08gr3-PL/image;s=1000x700"
         name="Doniczka typu pociag"
-        price="180 zł"
+        price="130 zł"
         class="col-12 col-md"
         olxURL="https://www.olx.pl/d/oferta/doniczka-pociag-obduowa-dla-kwiatkow-CID628-ID11aFnO.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=1"
         allegroURL="https://allegro.pl/"
