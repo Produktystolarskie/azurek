@@ -9,6 +9,7 @@ const props = defineProps({
   price: String,
   olxURL: String,
   allegroURL: String,
+  refLinkSize:String
 });
 </script>
 
@@ -30,6 +31,7 @@ const props = defineProps({
               class="bg-transparent"
               :olxURL="props.olxURL"
               :allegroURL="props.allegroURL"
+              :refLinkSize="props.refLinkSize"
             />
           </div>
         </div>

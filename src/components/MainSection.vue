@@ -4,6 +4,12 @@ import { ref, defineProps } from "vue";
 
 const props = defineProps({
   sectionHeight: Number,
+  routeToName: String,
+  routeTo: {
+    type: String,
+    default: "/oferty",
+  },
+  arrow: String,
 });
 </script>
 
@@ -15,10 +21,12 @@ const props = defineProps({
       width="100%"
       :height="props.sectionHeight"
     >
-      <div class="absolute-left q-pa-xl links">
+      <div class="absolute-left q-pa-lg links">
         <h3>
-          <router-link class="text-white" to="/oferty">
-            Moja oferta <q-icon name="arrow_right" />
+          <router-link class="text-white" :to="props.routeTo">
+            <q-icon v-if="props.arrow === 'left'" name="arrow_left" />
+            {{ props.routeToName }}
+            <q-icon v-if="props.arrow !== 'left'" name="arrow_right" />
           </router-link>
         </h3>
       </div>

@@ -6,7 +6,7 @@ const slide = ref("style");
 </script>
 
 <template>
-  <div class="q-pa-sm recommended">
+  <div class="q-pa-lg recommended">
     <h2>Najnowsze</h2>
     <div class="row max-width">
       <item

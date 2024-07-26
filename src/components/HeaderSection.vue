@@ -2,20 +2,13 @@
 
 <template>
   <header> 
-    <div>
+    <div class="q-pa-lg">
       <h1 class="text-h3">
         Produkty stolarskie
         <h2 class="text-h4">Artur Jurek</h2>
       </h1> 
       </div>
-    <!-- <div class="q-pa-sm links" reveal elevated>
-      <h3>
-        <router-link class="text-white" to="/oferty">
-          Pełna oferta <q-icon name="arrow_right" />
-        </router-link>
-      </h3>
-      
-    </div> -->
+   
   </header>
 </template>
 
@@ -27,6 +20,14 @@ header {
   * {
     font-family: "Bebas Neue";
     color: var(--white);
+  }
+  .links{
+    background-color: var(--primary);
+
+    *{
+      margin:10px;
+      color: var(--secondary);
+    }
   }
 }
 
