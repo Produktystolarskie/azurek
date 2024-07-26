@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="row">
+  <div class="row elevated">
     <q-parallax
       class="col"
       src="https://d2yvmenv39glx3.cloudfront.net/images/f-105323-co-robi-stolarz-wszystko-o-uslugach-stolarskich.jpg"
