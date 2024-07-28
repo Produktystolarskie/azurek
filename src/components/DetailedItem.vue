@@ -15,13 +15,11 @@ if(item.value==null)
 router.push("/")
 </script>
 
-<template>
-  <div class="row justify-center q-gutter-lg">
-    <q-intersection>
+<template> 
       <q-card
         class="q-pa-sm bg-transparent detailed"
         flat
-        @click="router.push({ name: 'oferta', params: { id: 'sadds' } })"
+        @click="router.push({ name: 'oferta', params: { id: props.id } })"
       >
         <q-card-section>
           <q-img
@@ -80,7 +78,7 @@ router.push("/")
               infinite
               arrows
               height="550px"
-              class="max-width bg-transparent rounded-borders"
+              class="max-width bg-transparent rounded-borders carousel"
             >
               <q-carousel-slide
                 v-for="(image, i) in item?.images"
@@ -91,9 +89,7 @@ router.push("/")
             </q-carousel>
           </div>
         </q-card-section>
-      </q-card>
-    </q-intersection>
-  </div>
+      </q-card> 
 </template>
 
 <style scoped>
@@ -118,6 +114,10 @@ h6 {
   grid-template-columns: 1fr;
   max-width: 824px;
   margin: 0 auto;
+  .carousel{
+    max-width:350px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1025px) {
