@@ -12,13 +12,13 @@ const slide = ref("style");
   <div class="q-pa-lg recommended">
     <h2>Najnowsze</h2>
     <div class="row max-width">
-      <item v-for="i in 2" :key="i"
-          :id="items[i].id"
-          :img="items[i].images[0]"
-          :name="items[i].name"
-          :price="items[i].price"
-          :olxURL="items[i].olxURL"
-          :allegroURL="items[i].allegroURL"
+      <item v-for="i in 3" :key="i"
+          :id="items[i-1].id"
+          :img="items[i-1].images[0]"
+          :name="items[i-1].name"
+          :price="items[i-1].price"
+          :olxURL="items[i-1].olxURL"
+          :allegroURL="items[i-1].allegroURL"
           class="col-12 col-md"
         />
     </div>
