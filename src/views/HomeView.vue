@@ -14,10 +14,16 @@ const windowHeight = ref(window.innerHeight);
   <q-layout>
     <q-page-container>
       <q-page>
-        <main-section :sectionHeight="100" routeTo='/oferty' routeToName="Moja oferta"/>
+        <main-section
+          :sectionHeight="100"
+          routeTo="/oferty"
+          routeToName="Moja oferta"
+        />
         <recommended-products />
-        <about-section />
-        <contact-section />
+        <div class="q-pa-lg">
+          <about-section />
+          <contact-section />
+        </div>
       </q-page>
     </q-page-container>
   </q-layout>

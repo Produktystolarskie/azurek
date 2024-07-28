@@ -48,17 +48,25 @@ const props = defineProps({
   width: 3rem;
   height: 3rem;
 }
-.circle.large{
 
-  width: 5rem;
-  height: 5rem;
-}
-
-.olx { 
+.circle.small.olx { 
   border-radius: 80% 0% 0% 80%;
 }
-
-.allegro { 
+.circle.small.allegro { 
   border-radius: 0% 80% 80% 0%;
+}
+
+.circle.large{
+  padding:15px;
+  width: 4rem;
+  height: 4rem;
+}
+
+.circle.large.olx { 
+  border-radius: 100% 0% 100% 100%;
+}
+
+.circle.large.allegro { 
+  border-radius: 100% 0% 100% 100%;
 }
 </style>

@@ -4,6 +4,7 @@ import RefLink from "@/components/RefLink.vue";
 import router from "@/router/index";
 
 const props = defineProps({
+  id: String,
   img: String,
   name: String,
   price: String,
@@ -17,7 +18,7 @@ const props = defineProps({
   <q-card
     class="q-pa-sm items-center bg-transparent"
     flat
-    @click="router.push({ name: 'oferta', params: { id: 'sadds' } })"
+    @click="router.push({ name: 'oferta', params: { id: props.id } })"
   >
     <q-img class="q-pa-xs" :src="props.img" :ratio="9/16"> </q-img>
     <q-card-section>
@@ -25,7 +26,7 @@ const props = defineProps({
         <div>
           <h5 class="name">{{ props.name }}</h5>
           <div class="row items-center">
-            <h6>{{ props.price }}</h6>
+            <h6>{{ props.price }} zł</h6>
             <q-space />
             <ref-link
               class="bg-transparent"
@@ -48,8 +49,7 @@ h6 {
   line-height: 2;
 }
 h5.name {
-  color: var(--accent);
-  min-height: 6rem;
+  color: var(--accent); 
 }
 h6 {
   color: var(--secondary);

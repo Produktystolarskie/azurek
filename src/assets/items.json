@@ -1,19 +1,86 @@
 [
-    {
-        "mainImage": "https://ireland.apollo.olxcdn.com/v1/files/tbh9zef7qz522-PL/image;s=1000x700",
-        "images": [
-            "https://ireland.apollo.olxcdn.com/v1/files/ddsw3uqek7ts-PL/image;s=1000x700",
-            "https://ireland.apollo.olxcdn.com/v1/files/7svzscfu3tjn3-PL/image;s=1000x700"
-        ],
-        "name": "Miniaturowy stolik piknikowy, ozdoba do domu",
-        "price": 49,
-        "olxURL": "",
-        "allegroURL": "",
-        "params": [
-            {
-                "szerokość": "120",
-                "długość": "70"
-            }
-        ]
+  {
+    "id": "miniaturowy-stolik-piknikowy",
+    "name": "Miniaturowy stolik piknikowy, ozdoba do domu",
+    "mainImage": "https://ireland.apollo.olxcdn.com/v1/files/tbh9zef7qz522-PL/image;s=1000x700",
+    "description": "Stolik jest wykonany z drewna, co nadaje mu trwałość i stabilność. Kompaktowy rozmiar pozwala na łatwe przenoszenie i umieszczanie go w dowolnym miejscu, gdzie chcesz dodać odrobinę ciepła i stylu. Idealny na prezent dla miłośników oryginalnych dekoracji wnętrz!",
+    "images": [
+      "https://ireland.apollo.olxcdn.com/v1/files/ddsw3uqek7ts-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/7svzscfu3tjn3-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/btlrm5qs9dyj-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/8ct3hslh0fyv1-PL/image;s=1000x700"
+    ],
+    "price": "49",
+    "olxURL": "https://www.olx.pl/d/oferta/miniaturowy-stolik-piknikowy-ozdoba-do-domu-CID628-ID119wzw.html?reason=ip%7Clister",
+    "allegroURL": "",
+    "params": {
+      "Dolne deski - długość": "34cm",
+      "Dolne deski - szerokość": "9cm",
+      "Górne deski - długość": "25cm",
+      "Górne deski - szerokość": "16cm",
+      "Długość całkowita podstawy": "50cm"
     }
+  },
+  {
+    "id": "karmnik",
+    "name": "Karmnik dla ptaków",
+    "mainImage": "https://ireland.apollo.olxcdn.com/v1/files/rw3llkmthvne-PL/image;s=1000x700",
+    "description": "Karmnik dla ptakow",
+    "images": [
+      "https://ireland.apollo.olxcdn.com/v1/files/j7ynglbeon063-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/3frpsegrfkox-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/7o2kvshoi2xq2-PL/image;s=1000x700"
+    ],
+    "price": "60",
+    "olxURL": "https://www.olx.pl/d/oferta/karmnik-dla-ptakow-CID103-ID11aNN6.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=0",
+    "allegroURL": "",
+    "params": {
+      "Rodzaj drewna": "sosnowe",
+      "Kolor dachu": "orzech",
+      "Wysokość": "36cm",
+      "Długość": "30cm",
+      "Szerokość": "16cm"
+    }
+  },
+  {
+    "id": "doniczka-pociag",
+    "name": "Doniczka - pociąg",
+    "mainImage": "https://ireland.apollo.olxcdn.com/v1/files/h1wd1e3be33c3-PL/image;s=1000x700",
+    "description": "Pociag wykonany z drewna sosnowego, pomalowany bezbarwnym impregnatem, skrecony na wkrety, + klej. ",
+    "images": [
+      "https://ireland.apollo.olxcdn.com/v1/files/lumryc4b08gr3-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/4wqq7xuymzvh2-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/7o2kvshoi2xq2-PL/image;s=1000x700"
+    ],
+    "price": "130",
+    "olxURL": "https://www.olx.pl/d/oferta/doniczka-pociag-obduowa-dla-kwiatkow-CID628-ID11aFnO.html?isPreviewActive=0&reason=ip%7Clister&sliderIndex=4",
+    "allegroURL": "",
+    "params": {
+      "Rodzaj drewna": "sosnowe",
+      "Wysokość": "16cm",
+      "Długość": "25cm",
+      "Szerokość": "15cm"
+    }
+  },
+  {
+    "id": "doniczka-wagon",
+    "name": "Doniczka - wagon",
+    "mainImage": "https://ireland.apollo.olxcdn.com/v1/files/h1wd1e3be33c3-PL/image;s=1000x700",
+    "description": "Pociag wykonany z drewna sosnowego, pomalowany bezbarwnym impregnatem, skrecony na wkrety, + klej. Bez dna",
+    "images": [
+      "https://ireland.apollo.olxcdn.com/v1/files/lumryc4b08gr3-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/4wqq7xuymzvh2-PL/image;s=1000x700",
+      "https://ireland.apollo.olxcdn.com/v1/files/7o2kvshoi2xq2-PL/image;s=1000x700"
+    ],
+    "price": "130",
+    "olxURL": "https://www.olx.pl/d/oferta/doniczka-pociag-obduowa-dla-kwiatkow-CID628-ID11aFnO.html?isPreviewActive=0&reason=ip%7Clister&sliderIndex=4",
+    "allegroURL": "",
+    "params": {
+      "Rodzaj drewna": "sosnowe",
+      "Wysokość": "16cm",
+      "Długość": "41,5cm",
+      "Szerokość": "18,5cm",
+      "Dno":"Bez dna"
+    }
+  }
 ]

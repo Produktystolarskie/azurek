@@ -1,11 +1,11 @@
 <template>
     <div class="row q-pa-xl contact">
-      <div class="links">
+      <div>
         <h4>Kontakt</h4>
         <h6>
-          Telefon: 123 456 789 <q-space/>
-          Email: arturjurek@gmail.com
-        
+          W celu zakupienia poza olx, allegro nalezy sie kontaktowac na: <q-space/>
+          Telefon: 787 607 511 <q-space/>
+          Email: arturjurek12@gmail.com 
         </h6>
       </div>
     </div>

@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
+
 import Item from "@/components/Item.vue";
+
+import items from "@/assets/items.json"
 
 const slide = ref("style");
 </script>
@@ -9,30 +12,15 @@ const slide = ref("style");
   <div class="q-pa-lg recommended">
     <h2>Najnowsze</h2>
     <div class="row max-width">
-      <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/rw3llkmthvne-PL/image;s=1000x700"
-        name="Karmnik "
-        price="60 zł"
-        olxURL="https://www.olx.pl/d/oferta/karmnik-dla-ptakow-CID103-ID11aNN6.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=0"
-        allegroURL="https://allegro.pl/"
-        class="col-12 col-md"
-      />
-      <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/7svzscfu3tjn3-PL/image;s=1000x700"
-        name="Stolik"
-        price="50 zł"
-        class="col-12 col-md"
-        olxURL="https://www.olx.pl/d/oferta/miniaturowy-stolik-piknikowy-ozdoba-do-domu-CID628-ID119wzw.html?bs=olx_pro_listing"
-        allegroURL="link do allegro"
-      />
-      <item
-        img="https://ireland.apollo.olxcdn.com/v1/files/lumryc4b08gr3-PL/image;s=1000x700"
-        name="Doniczka typu pociag"
-        price="130 zł"
-        class="col-12 col-md"
-        olxURL="https://www.olx.pl/d/oferta/doniczka-pociag-obduowa-dla-kwiatkow-CID628-ID11aFnO.html?bs=olx_pro_listing&isPreviewActive=0&sliderIndex=1"
-        allegroURL="https://allegro.pl/"
-      />
+      <item v-for="i in 2" :key="i"
+          :id="items[i].id"
+          :img="items[i].images[0]"
+          :name="items[i].name"
+          :price="items[i].price"
+          :olxURL="items[i].olxURL"
+          :allegroURL="items[i].allegroURL"
+          class="col-12 col-md"
+        />
     </div>
   </div>
 </template>
